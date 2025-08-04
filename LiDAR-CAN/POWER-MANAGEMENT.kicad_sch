@@ -336,6 +336,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LMR51430XDDCR"
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "83e74caa-5a0c-43a8-b897-25bf401c9943")
 		)
@@ -410,6 +428,24 @@
 			)
 		)
 		(property "Description" "4.5-V to 36-V, 3-A synchronous buck converter with 40-µA IQ, SOT-23-6"
+			(at 139.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 139.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LMR51430XDDCR"
 			(at 139.7 55.88 0)
 			(effects
 				(font
