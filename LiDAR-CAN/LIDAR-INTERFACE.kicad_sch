@@ -11,6 +11,113 @@
 		(company "Robot.com")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2686,6 +2793,26 @@
 		)
 		(uuid "09cff44d-cb09-45a4-9010-1332c6c04e23")
 	)
+	(text_box "Testpoints"
+		(exclude_from_sim no)
+		(at 228.6 139.7 0)
+		(size 50.8 19.05)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "33e4aa68-4873-4b80-b5ac-fa1dd4d14bcd")
+	)
 	(text_box "Connector interface component selection based on Renesas' application note: R19AN0015ED0102"
 		(exclude_from_sim no)
 		(at 208.28 55.88 0)
@@ -2748,6 +2875,27 @@
 			(justify left top)
 		)
 		(uuid "ce0261b3-97ab-4b08-982e-2064068cafc5")
+	)
+	(text_box "~{RST} have internall pull-up"
+		(exclude_from_sim no)
+		(at 95.25 99.06 0)
+		(size 11.43 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 229 191 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d6ebbeb6-151a-428c-96e5-bfdf0cca7e86")
 	)
 	(junction
 		(at 76.2 50.8)
@@ -3461,6 +3609,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 148.59) (xy 254 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6627190e-2ede-4127-b9fa-d9163b7f96b8")
+	)
+	(wire
+		(pts
 			(xy 190.5 50.8) (xy 203.2 50.8)
 		)
 		(stroke
@@ -3538,6 +3696,16 @@
 			(type default)
 		)
 		(uuid "751a1600-b5d4-402b-b0b0-9a94decc7b7f")
+	)
+	(wire
+		(pts
+			(xy 266.7 148.59) (xy 266.7 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d6e56c-77c1-4423-ac69-556fcef76060")
 	)
 	(wire
 		(pts
@@ -3768,6 +3936,16 @@
 			(type default)
 		)
 		(uuid "a389d7a2-4775-4572-b67e-f805bac1d316")
+	)
+	(wire
+		(pts
+			(xy 241.3 148.59) (xy 241.3 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b2abc3-df6e-4bf3-b5a6-1c73eb1ef3e9")
 	)
 	(wire
 		(pts
@@ -4090,6 +4268,16 @@
 		(uuid "0c7f1c06-9773-4a1e-8547-b34e2e5a3b93")
 	)
 	(label "AVDD"
+		(at 254 151.13 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b631fac-6631-4b74-8016-96c9fcc3dac1")
+	)
+	(label "AVDD"
 		(at 118.11 50.8 0)
 		(effects
 			(font
@@ -4098,6 +4286,16 @@
 			(justify left bottom)
 		)
 		(uuid "51c29141-51d6-4d95-a54f-495bb0cb42b3")
+	)
+	(label "1V20"
+		(at 266.7 151.13 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "794d47be-14c6-4688-95f3-385106174370")
 	)
 	(label "1V20"
 		(at 160.02 142.24 0)
@@ -4248,6 +4446,17 @@
 			(justify right)
 		)
 		(uuid "81809814-59b6-4e5d-8f89-ab6e513e8411")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 241.3 151.13 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96282c27-18e2-433f-8918-504d8f83a1bc")
 	)
 	(hierarchical_label "MISO"
 		(shape output)
@@ -5181,6 +5390,73 @@
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/91fe436f-7e8c-47e0-899c-e39330e04729"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 266.7 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c6d9fc0-f733-4c91-b36b-62340cec9774")
+		(property "Reference" "TP3"
+			(at 269.24 144.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 269.24 146.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 271.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 266.7 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddc6503d-3195-4d11-834b-bd8f2195d281")
+		)
+		(instances
+			(project "LiDAR-CAN"
+				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/91fe436f-7e8c-47e0-899c-e39330e04729"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -6498,7 +6774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://wizwiki.net/wiki/lib/exe/fetch.php/products:w5500:w5500_ds_v109e.pdf"
+		(property "Datasheet" "https://docs.wiznet.io/img/products/w5500/W5500_ds_v110e.pdf"
 			(at 139.7 91.44 0)
 			(effects
 				(font
@@ -6507,7 +6783,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10/100Mb SPI Ethernet controller with TCP/IP stack, LQFP-48"
+		(property "Description" "IC CTLR 3-1 ETH TCP/IP 48LQFP"
+			(at 139.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WIZnet"
+			(at 139.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "W5500"
 			(at 139.7 116.84 0)
 			(effects
 				(font
@@ -6729,6 +7023,73 @@
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/91fe436f-7e8c-47e0-899c-e39330e04729"
 					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 241.3 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b35bea75-c331-4c2c-8cd6-bbcb8e563a24")
+		(property "Reference" "TP1"
+			(at 243.84 144.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 243.84 146.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 246.38 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 241.3 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ccfa9a4-cd3a-4cc4-82d2-e27dba9ad827")
+		)
+		(instances
+			(project ""
+				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/91fe436f-7e8c-47e0-899c-e39330e04729"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -7481,6 +7842,73 @@
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/91fe436f-7e8c-47e0-899c-e39330e04729"
 					(reference "R95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 254 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e457f5cc-bde6-476b-aa54-6f488129aa41")
+		(property "Reference" "TP2"
+			(at 256.54 144.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 256.54 146.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 259.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 254 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50261a29-46a1-493c-baa5-fcbf7927558c")
+		)
+		(instances
+			(project "LiDAR-CAN"
+				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/91fe436f-7e8c-47e0-899c-e39330e04729"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
