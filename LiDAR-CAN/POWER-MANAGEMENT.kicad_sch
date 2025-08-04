@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "338cbcdc-aa25-4810-ace7-bfc2fe3ac9e9")
+	(uuid "fd920696-e9bd-43b1-8545-548f25288c46")
 	(paper "A4")
 	(title_block
 		(title "LiDAR-CAN Interface")
@@ -10,7 +10,202 @@
 		(rev "1")
 		(company "Robot.com")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Regulator_Switching:LMR51430"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LMR51430"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 1.27 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51430.pdf"
+				(at 1.27 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "4.5-V to 36-V, 3-A synchronous buck converter with 40-µA IQ, SOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switching buck converter power-supply voltage regulator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LMR51430_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LMR51430_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "CB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(text "Power Management"
 		(exclude_from_sim no)
 		(at 140.462 21.336 0)
@@ -44,7 +239,7 @@
 		)
 		(uuid "29d6a333-c435-4855-8274-f1dcab31b37c")
 	)
-	(text_box "MID-360 voltage range: 9V-27V\nRecommended: 12VDC\nTypical power: 6.5W (@ <35°C)\nMax. Startup power: 18W  "
+	(text_box "MID-360 voltage range: 9V-27V\nRecommended: 12VDC\nTypical power: 6.5W (@ <35°C)\nMax. Startup power: 18W\nMaximum current: 1.5A"
 		(exclude_from_sim no)
 		(at 190.5 50.8 0)
 		(size 38.1 12.7)
@@ -65,7 +260,7 @@
 		)
 		(uuid "bff5f0b0-dfb2-4c85-aa90-808b689d21ff")
 	)
-	(text_box "MCU and peripherals:\n3.3VDC @ 1A"
+	(text_box "MCU and peripherals:\n3.3VDC @ 0.5A"
 		(exclude_from_sim no)
 		(at 190.5 76.2 0)
 		(size 38.1 12.7)
@@ -85,5 +280,169 @@
 			(justify left top)
 		)
 		(uuid "da4156b0-136a-45f1-9cc2-5eacdb722b0e")
+	)
+	(symbol
+		(lib_id "Regulator_Switching:LMR51430")
+		(at 165.1 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06a05b7f-d39b-4fd8-bf84-fe36cd65d5e8")
+		(property "Reference" "U5"
+			(at 165.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMR51430"
+			(at 165.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 166.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51430.pdf"
+			(at 166.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.5-V to 36-V, 3-A synchronous buck converter with 40-µA IQ, SOT-23-6"
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "83e74caa-5a0c-43a8-b897-25bf401c9943")
+		)
+		(pin "1"
+			(uuid "0ec691c4-6a3b-46f0-9038-455eed70e9d1")
+		)
+		(pin "3"
+			(uuid "925bd830-fc93-4d82-9f23-dfeeab8d121a")
+		)
+		(pin "6"
+			(uuid "42d9fec9-73e5-40ab-a121-5605c94af0a7")
+		)
+		(pin "2"
+			(uuid "775be1ea-e50f-4fdf-a60a-bbf99c68b198")
+		)
+		(pin "4"
+			(uuid "b35940e0-8755-4eee-9ae4-a3f9fb4f36b1")
+		)
+		(instances
+			(project ""
+				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/279681b5-dc02-4bbb-98e2-e427440df0b4"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:LMR51430")
+		(at 139.7 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "651f830d-d7cc-468f-ab03-42f4a95ec7cb")
+		(property "Reference" "U4"
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMR51430"
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 140.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51430.pdf"
+			(at 140.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.5-V to 36-V, 3-A synchronous buck converter with 40-µA IQ, SOT-23-6"
+			(at 139.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "a217a17f-cd41-4c94-8d14-cdaa65aa2d43")
+		)
+		(pin "2"
+			(uuid "2e81c721-cb3f-4d22-be87-95bbc8d201ec")
+		)
+		(pin "1"
+			(uuid "0a8d5561-664a-4135-948a-d2832003dd00")
+		)
+		(pin "4"
+			(uuid "c235ab95-610b-4f23-9309-b34d0d6b9f1e")
+		)
+		(pin "3"
+			(uuid "4a1346f2-8ae5-47da-81e7-acc44f236fe0")
+		)
+		(pin "5"
+			(uuid "d5dda1d8-ac10-4247-ba59-a558fc7dc15b")
+		)
+		(instances
+			(project ""
+				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/279681b5-dc02-4bbb-98e2-e427440df0b4"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
 	)
 )
