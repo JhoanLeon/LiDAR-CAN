@@ -1,0 +1,26 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a1c32d96-7a02-44f1-bde6-fc98640a6254")
+	(paper "A4")
+	(title_block
+		(title "LiDAR-CAN Interface")
+		(date "2025-08-03")
+		(rev "1")
+		(company "Robot.com")
+	)
+	(lib_symbols)
+	(text "CAN Interface"
+		(exclude_from_sim no)
+		(at 141.986 26.67 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "24b94e47-e5bd-4fc0-9a8c-bda949c9da19")
+	)
+)
