@@ -4969,7 +4969,7 @@
 		)
 		(uuid "403120f5-1adf-4253-8fe0-57f9be63fca0")
 	)
-	(label "MCU_NRST"
+	(label "MCU_RST"
 		(at 251.46 73.66 180)
 		(effects
 			(font
@@ -5319,7 +5319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08454312-6735-4d6d-ab91-1539401e63b9")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR063"
 			(at 50.8 57.15 0)
 			(effects
 				(font
@@ -5369,7 +5369,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "#PWR037")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -5384,7 +5384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bca3ce5-f05f-4ba1-aed4-9a66b618721d")
-		(property "Reference" "C93"
+		(property "Reference" "C38"
 			(at 93.345 43.18 0)
 			(effects
 				(font
@@ -5465,7 +5465,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "C93")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -5481,7 +5481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14d655f4-6503-4e72-9108-9db7080bce5f")
-		(property "Reference" "C9"
+		(property "Reference" "C42"
 			(at 54.61 162.5599 0)
 			(effects
 				(font
@@ -5553,7 +5553,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "C9")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -5569,7 +5569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ee9a4d7-8970-4e5a-a9b8-9c7dd9664750")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR073"
 			(at 69.85 110.49 0)
 			(effects
 				(font
@@ -5619,7 +5619,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "#PWR045")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -5635,7 +5635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21508da5-1e05-4861-9e73-abe863425c68")
-		(property "Reference" "TP15"
+		(property "Reference" "TP31"
 			(at 231.14 122.4279 0)
 			(effects
 				(font
@@ -5686,7 +5686,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "TP15")
+					(reference "TP31")
 					(unit 1)
 				)
 			)
@@ -5702,7 +5702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2699f9ff-67ff-4411-ac95-51d85a6c9ef0")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR076"
 			(at 152.4 151.13 0)
 			(effects
 				(font
@@ -5752,7 +5752,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "#PWR042")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -5768,7 +5768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b4d02e9-bbd5-4c29-a05f-755e0a0453bb")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR067"
 			(at 101.6 57.15 0)
 			(effects
 				(font
@@ -5818,7 +5818,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "#PWR041")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -5834,7 +5834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b8780d3-b5c1-4fa6-80af-0c63601f79ad")
-		(property "Reference" "TP18"
+		(property "Reference" "TP34"
 			(at 269.24 122.4279 0)
 			(effects
 				(font
@@ -5885,7 +5885,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "TP18")
+					(reference "TP34")
 					(unit 1)
 				)
 			)
@@ -5901,7 +5901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a21012e-f5a6-452f-8945-a604d09fbe25")
-		(property "Reference" "R16"
+		(property "Reference" "R31"
 			(at 114.3 54.61 90)
 			(effects
 				(font
@@ -5980,7 +5980,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "R16")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -5996,7 +5996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "472d6872-b96c-4548-8205-8126647717fe")
-		(property "Reference" "D2"
+		(property "Reference" "D5"
 			(at 207.01 73.9774 90)
 			(effects
 				(font
@@ -6068,7 +6068,7 @@
 		(instances
 			(project ""
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "D2")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6084,7 +6084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f2d4fd4-0a60-4167-8eba-dfd142bee983")
-		(property "Reference" "R19"
+		(property "Reference" "R32"
 			(at 205.74 62.2299 0)
 			(effects
 				(font
@@ -6156,7 +6156,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "R19")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -6172,7 +6172,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "517b521d-f1cb-442b-8f5a-256231c680a9")
-		(property "Reference" "C10"
+		(property "Reference" "C41"
 			(at 128.27 132.0799 0)
 			(effects
 				(font
@@ -6244,7 +6244,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "C10")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -6260,7 +6260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51bef67d-0725-47bc-8b43-1743612f0507")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR065"
 			(at 76.2 57.15 0)
 			(effects
 				(font
@@ -6310,7 +6310,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "#PWR039")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -6325,7 +6325,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61bbae0f-a448-4ab8-a92b-2f6ad445cb04")
-		(property "Reference" "C91"
+		(property "Reference" "C36"
 			(at 67.945 43.18 0)
 			(effects
 				(font
@@ -6406,7 +6406,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "C91")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -6512,7 +6512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "707e9afc-1c27-44d1-9bd0-ca27577e7a34")
-		(property "Reference" "C92"
+		(property "Reference" "C37"
 			(at 80.645 43.18 0)
 			(effects
 				(font
@@ -6593,7 +6593,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "C92")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -6609,7 +6609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75cb7457-fc65-4512-bafd-efac64551100")
-		(property "Reference" "J2"
+		(property "Reference" "J5"
 			(at 261.62 77.4699 0)
 			(effects
 				(font
@@ -6690,7 +6690,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "J2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6705,7 +6705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77e76aae-0f4d-4bba-8e68-38f30e388fe8")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR078"
 			(at 50.8 176.53 0)
 			(effects
 				(font
@@ -6755,7 +6755,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "#PWR048")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -6771,7 +6771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "883fd4fb-e8ab-4c2a-ad61-a7d85417f6c8")
-		(property "Reference" "U1"
+		(property "Reference" "U5"
 			(at 157.0833 142.24 0)
 			(effects
 				(font
@@ -7030,7 +7030,7 @@
 		(instances
 			(project ""
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "U1")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -7046,7 +7046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a7d68e0-7da2-4c44-873a-8e0a21d7b374")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR064"
 			(at 63.5 57.15 0)
 			(effects
 				(font
@@ -7096,7 +7096,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "#PWR038")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -7111,7 +7111,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e1b9be6-fe21-4a64-8f34-0c51eaae37a5")
-		(property "Reference" "C25"
+		(property "Reference" "C34"
 			(at 46.99 43.1799 0)
 			(effects
 				(font
@@ -7192,7 +7192,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "C25")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -7208,7 +7208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a007c74b-e308-4cd9-abc2-349c2e779f50")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR075"
 			(at 132.08 146.05 0)
 			(effects
 				(font
@@ -7258,7 +7258,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "#PWR050")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -7274,7 +7274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a98c98e9-9cdd-4025-a086-267ba05c7f5f")
-		(property "Reference" "TP16"
+		(property "Reference" "TP32"
 			(at 243.84 122.4279 0)
 			(effects
 				(font
@@ -7325,7 +7325,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "TP16")
+					(reference "TP32")
 					(unit 1)
 				)
 			)
@@ -7341,7 +7341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae781e97-08a5-45c6-b65c-ad47344705c6")
-		(property "Reference" "C20"
+		(property "Reference" "C40"
 			(at 60.96 95.504 90)
 			(effects
 				(font
@@ -7411,7 +7411,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "C20")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -7426,7 +7426,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b09df630-a9a5-471a-bd8c-9893f055e602")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR077"
 			(at 38.1 176.53 0)
 			(effects
 				(font
@@ -7476,7 +7476,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "#PWR047")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -7492,7 +7492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2351ac6-4890-460c-89c1-79b3da00dc55")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR070"
 			(at 251.46 92.71 0)
 			(effects
 				(font
@@ -7542,7 +7542,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "#PWR051")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -7558,7 +7558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b26956a8-590e-48cc-8690-49278122874e")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR069"
 			(at 203.2 86.36 0)
 			(effects
 				(font
@@ -7608,7 +7608,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "#PWR053")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -7623,7 +7623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b506705d-8a32-4539-b35b-adc03f0779a7")
-		(property "Reference" "R17"
+		(property "Reference" "R30"
 			(at 119.634 48.514 90)
 			(effects
 				(font
@@ -7693,7 +7693,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "R17")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -7709,7 +7709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9119ecd-b36d-44ab-8363-0b01f10f9371")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR068"
 			(at 107.95 69.85 0)
 			(effects
 				(font
@@ -7759,7 +7759,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "#PWR049")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -7775,7 +7775,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b937e9e2-7b0a-435c-97c6-2689e212e195")
-		(property "Reference" "C19"
+		(property "Reference" "C39"
 			(at 60.96 82.804 90)
 			(effects
 				(font
@@ -7845,7 +7845,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "C19")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -7861,7 +7861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3538cc1-303b-4260-ae7b-6baa2451b149")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR071"
 			(at 54.61 97.79 0)
 			(effects
 				(font
@@ -7911,7 +7911,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "#PWR043")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -7926,7 +7926,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c64ebc92-7259-4e18-9712-1ead2890c70f")
-		(property "Reference" "R1"
+		(property "Reference" "R34"
 			(at 44.45 152.4 90)
 			(effects
 				(font
@@ -7996,7 +7996,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "R1")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -8097,7 +8097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c81dc2aa-9f2b-4449-9cd0-06df912063d8")
-		(property "Reference" "TP17"
+		(property "Reference" "TP33"
 			(at 256.54 122.4279 0)
 			(effects
 				(font
@@ -8148,7 +8148,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "TP17")
+					(reference "TP33")
 					(unit 1)
 				)
 			)
@@ -8164,7 +8164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9d8102c-0bd2-4184-a098-b6fcd29066a8")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR074"
 			(at 77.47 110.49 0)
 			(effects
 				(font
@@ -8214,7 +8214,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "#PWR046")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -8229,7 +8229,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbfc615a-dd15-471e-a4de-86bba7af9ad3")
-		(property "Reference" "R18"
+		(property "Reference" "R29"
 			(at 146.304 47.244 90)
 			(effects
 				(font
@@ -8299,7 +8299,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "R18")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -8315,7 +8315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd74c758-6da6-4306-976f-965885c0d6be")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR072"
 			(at 54.61 110.49 0)
 			(effects
 				(font
@@ -8365,7 +8365,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "#PWR044")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -8381,7 +8381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6445f30-bc29-49b6-bfa2-9c17bdc2e026")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR066"
 			(at 88.9 57.15 0)
 			(effects
 				(font
@@ -8431,7 +8431,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "#PWR040")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -8447,7 +8447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f274601a-825a-4514-842e-49b7545dd934")
-		(property "Reference" "R15"
+		(property "Reference" "R33"
 			(at 53.34 149.8599 0)
 			(effects
 				(font
@@ -8528,7 +8528,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "R15")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -8543,7 +8543,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6702448-0854-44be-93ed-907660d8baab")
-		(property "Reference" "C90"
+		(property "Reference" "C35"
 			(at 55.245 43.18 0)
 			(effects
 				(font
@@ -8624,7 +8624,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "C90")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -8640,7 +8640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff3262da-7b4e-4bcf-b1e9-823ea587a2db")
-		(property "Reference" "TP14"
+		(property "Reference" "TP30"
 			(at 218.44 122.4279 0)
 			(effects
 				(font
@@ -8691,7 +8691,7 @@
 		(instances
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "TP14")
+					(reference "TP30")
 					(unit 1)
 				)
 			)
