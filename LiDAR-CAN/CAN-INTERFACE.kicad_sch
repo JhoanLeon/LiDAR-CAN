@@ -1578,8 +1578,8 @@
 	)
 	(text_box "Testpoints"
 		(exclude_from_sim no)
-		(at 184.15 139.7 0)
-		(size 95.25 25.4)
+		(at 190.5 127 0)
+		(size 88.9 25.4)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1812,16 +1812,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 151.13) (xy 241.3 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11004aea-22ba-49cb-8ab1-c6b7c64b025e")
-	)
-	(wire
-		(pts
 			(xy 165.1 142.24) (xy 165.1 132.08)
 		)
 		(stroke
@@ -1842,7 +1832,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 151.13) (xy 215.9 153.67)
+			(xy 228.6 138.43) (xy 228.6 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2212,7 +2202,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 151.13) (xy 190.5 153.67)
+			(xy 203.2 138.43) (xy 203.2 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2222,7 +2212,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 151.13) (xy 203.2 153.67)
+			(xy 215.9 138.43) (xy 215.9 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2252,7 +2242,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 151.13) (xy 254 153.67)
+			(xy 254 138.43) (xy 254 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2342,7 +2332,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 151.13) (xy 266.7 153.67)
+			(xy 266.7 138.43) (xy 266.7 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2422,7 +2412,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 151.13) (xy 228.6 153.67)
+			(xy 241.3 138.43) (xy 241.3 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2481,7 +2471,7 @@
 		(uuid "7dc71e56-da81-4c5b-8254-f236e3c8a088")
 	)
 	(label "VCCOUT"
-		(at 215.9 153.67 270)
+		(at 228.6 140.97 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2501,7 +2491,7 @@
 		(uuid "d4eeec61-7956-4c78-a66a-651ce246bff9")
 	)
 	(label "FLTR"
-		(at 228.6 153.67 270)
+		(at 241.3 140.97 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2588,7 +2578,7 @@
 	)
 	(hierarchical_label "VIO"
 		(shape input)
-		(at 203.2 153.67 270)
+		(at 215.9 140.97 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2621,7 +2611,7 @@
 	)
 	(hierarchical_label "RST"
 		(shape input)
-		(at 266.7 153.67 270)
+		(at 266.7 140.97 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2643,7 +2633,7 @@
 	)
 	(hierarchical_label "~{INT}"
 		(shape input)
-		(at 254 153.67 270)
+		(at 254 140.97 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2676,7 +2666,7 @@
 	)
 	(hierarchical_label "VSUP"
 		(shape input)
-		(at 190.5 153.67 270)
+		(at 203.2 140.97 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2706,17 +2696,6 @@
 			(justify right)
 		)
 		(uuid "f4bb6161-41d4-4974-b4a3-3c16e841b962")
-	)
-	(hierarchical_label "~{CS}"
-		(shape input)
-		(at 241.3 153.67 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fcad3960-5c3e-4f97-95a0-c93c8ffef82d")
 	)
 	(hierarchical_label "SDO"
 		(shape output)
@@ -2960,7 +2939,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 228.6 151.13 0)
+		(at 241.3 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2969,7 +2948,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b35024a-e4b6-4975-8c77-d2e6c2185a4d")
 		(property "Reference" "TP26"
-			(at 231.14 146.5579 0)
+			(at 243.84 133.8579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2978,7 +2957,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 231.14 149.0979 0)
+			(at 243.84 136.3979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2987,7 +2966,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 233.68 151.13 0)
+			(at 246.38 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,7 +2975,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 151.13 0)
+			(at 246.38 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,7 +2984,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 228.6 151.13 0)
+			(at 241.3 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,7 +4034,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 190.5 151.13 0)
+		(at 203.2 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4064,7 +4043,7 @@
 		(fields_autoplaced yes)
 		(uuid "a444f4b1-324c-4fc9-8d35-bc76b07e8565")
 		(property "Reference" "TP23"
-			(at 193.04 146.5579 0)
+			(at 205.74 133.8579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4073,7 +4052,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 193.04 149.0979 0)
+			(at 205.74 136.3979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +4061,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 195.58 151.13 0)
+			(at 208.28 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,7 +4070,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 151.13 0)
+			(at 208.28 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +4079,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 190.5 151.13 0)
+			(at 203.2 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4344,73 +4323,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 241.3 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be904b52-26d7-4b6f-b4ca-0d8e6139f588")
-		(property "Reference" "TP27"
-			(at 243.84 146.5579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 243.84 149.0979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 246.38 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 241.3 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29cfbc85-a64f-49c2-9c2c-2f73e82c49b1")
-		)
-		(instances
-			(project "LiDAR-CAN"
-				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/acdb1e38-683e-41e3-b904-0eede9d7599d"
-					(reference "TP27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 95.25 101.6 0)
 		(unit 1)
@@ -4509,7 +4421,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 254 151.13 0)
+		(at 254 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4518,7 +4430,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4a54187-154a-46b8-adac-5604f0be25ca")
 		(property "Reference" "TP28"
-			(at 256.54 146.5579 0)
+			(at 256.54 133.8579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,7 +4439,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 256.54 149.0979 0)
+			(at 256.54 136.3979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +4448,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 259.08 151.13 0)
+			(at 259.08 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4545,7 +4457,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 151.13 0)
+			(at 259.08 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +4466,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 254 151.13 0)
+			(at 254 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,7 +4488,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 266.7 151.13 0)
+		(at 266.7 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4585,7 +4497,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5640b94-91d8-4ff4-b977-a3a196af93f6")
 		(property "Reference" "TP29"
-			(at 269.24 146.5579 0)
+			(at 269.24 133.8579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,7 +4506,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 269.24 149.0979 0)
+			(at 269.24 136.3979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4603,7 +4515,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 271.78 151.13 0)
+			(at 271.78 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,7 +4524,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 271.78 151.13 0)
+			(at 271.78 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,7 +4533,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 266.7 151.13 0)
+			(at 266.7 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4739,7 +4651,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 203.2 151.13 0)
+		(at 215.9 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4748,7 +4660,7 @@
 		(fields_autoplaced yes)
 		(uuid "de50b1dc-eaac-41a1-b942-e6ea6f650a34")
 		(property "Reference" "TP24"
-			(at 205.74 146.5579 0)
+			(at 218.44 133.8579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4757,7 +4669,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 205.74 149.0979 0)
+			(at 218.44 136.3979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4766,7 +4678,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 208.28 151.13 0)
+			(at 220.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4775,7 +4687,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 151.13 0)
+			(at 220.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4784,7 +4696,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 203.2 151.13 0)
+			(at 215.9 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5012,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 215.9 151.13 0)
+		(at 228.6 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5109,7 +5021,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa034ad1-ede7-4994-b9ae-9639bd81d997")
 		(property "Reference" "TP25"
-			(at 218.44 146.5579 0)
+			(at 231.14 133.8579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5030,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 218.44 149.0979 0)
+			(at 231.14 136.3979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +5039,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 220.98 151.13 0)
+			(at 233.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,7 +5048,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 151.13 0)
+			(at 233.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,7 +5057,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 215.9 151.13 0)
+			(at 228.6 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
