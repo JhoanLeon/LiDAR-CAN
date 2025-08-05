@@ -7639,7 +7639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 119.634 44.196 90)
 			(effects
 				(font
@@ -7648,7 +7648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ6GEY0R00V"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 120.65 44.45 0)
 			(effects
 				(font
@@ -7657,7 +7657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0 OHM JUMPER 1/8W 0805"
+		(property "Description" "RES 0 OHM JUMPER 1/10W 0603"
 			(at 120.65 44.45 0)
 			(effects
 				(font
@@ -7666,7 +7666,7 @@
 				(hide yes)
 			)
 		)
-		(property "SPN" "P0.0ACT-ND"
+		(property "Manufacturer" "YAGEO"
 			(at 120.65 44.45 0)
 			(effects
 				(font
@@ -7675,7 +7675,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-6GEY0R00V"
+		(property "MPN" "RC0603JR-070RL"
 			(at 120.65 44.45 0)
 			(effects
 				(font
@@ -8245,7 +8245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 146.304 42.926 90)
 			(effects
 				(font
@@ -8254,7 +8254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ6GEY0R00V"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 147.32 43.18 0)
 			(effects
 				(font
@@ -8263,7 +8263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 0 OHM JUMPER 1/8W 0805"
+		(property "Description" "RES 0 OHM JUMPER 1/10W 0603"
 			(at 147.32 43.18 0)
 			(effects
 				(font
@@ -8272,7 +8272,7 @@
 				(hide yes)
 			)
 		)
-		(property "SPN" "P0.0ACT-ND"
+		(property "Manufacturer" "YAGEO"
 			(at 147.32 43.18 0)
 			(effects
 				(font
@@ -8281,7 +8281,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-6GEY0R00V"
+		(property "MPN" "RC0603JR-070RL"
 			(at 147.32 43.18 0)
 			(effects
 				(font
