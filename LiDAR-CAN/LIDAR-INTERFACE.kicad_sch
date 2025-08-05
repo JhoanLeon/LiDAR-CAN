@@ -2952,6 +2952,12 @@
 		(uuid "6a336d69-9a0a-405b-9e59-e8644f355215")
 	)
 	(junction
+		(at 158.75 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "739884a5-39ad-419e-958f-53da52753e5b")
+	)
+	(junction
 		(at 88.9 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2968,6 +2974,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9457fb62-857a-4548-bed7-fed646eb4708")
+	)
+	(junction
+		(at 152.4 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ccd1680-fec4-46d1-b643-af0c0d242c85")
 	)
 	(junction
 		(at 177.8 50.8)
@@ -3028,12 +3040,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4c4792a-8f44-4b84-8a9b-ae7a5ccde4bd")
-	)
-	(junction
-		(at 142.24 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6f77178-2bc9-4f6a-a63d-93e9c00a657e")
 	)
 	(junction
 		(at 190.5 99.06)
@@ -3129,6 +3135,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 76.2) (xy 142.24 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a1a9657-fc5d-45fe-be7c-82dbf68020db")
+	)
+	(wire
+		(pts
 			(xy 101.6 76.2) (xy 101.6 50.8)
 		)
 		(stroke
@@ -3136,6 +3152,16 @@
 			(type default)
 		)
 		(uuid "0aea3f80-4524-425d-8246-bce7bfab647d")
+	)
+	(wire
+		(pts
+			(xy 152.4 60.96) (xy 152.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c2ce5db-85d2-44eb-99e3-3e0dc2664f97")
 	)
 	(wire
 		(pts
@@ -3176,6 +3202,16 @@
 			(type default)
 		)
 		(uuid "10c63f12-f39c-41fa-a5a5-cf00720f9a76")
+	)
+	(wire
+		(pts
+			(xy 152.4 50.8) (xy 158.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "194b25d7-7277-4691-ab99-435ea1ea2d86")
 	)
 	(wire
 		(pts
@@ -3309,6 +3345,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 76.2) (xy 142.24 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36608080-6f1a-4c1e-b4d2-b45b1fa3a22f")
+	)
+	(wire
+		(pts
 			(xy 190.5 50.8) (xy 190.5 78.74)
 		)
 		(stroke
@@ -3336,6 +3382,16 @@
 			(type default)
 		)
 		(uuid "3b6627a5-fd0b-4908-a8a0-d13264b9c4ff")
+	)
+	(wire
+		(pts
+			(xy 152.4 50.8) (xy 152.4 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff29893-0b3b-4dae-830b-f44f231df346")
 	)
 	(wire
 		(pts
@@ -3396,16 +3452,6 @@
 			(type default)
 		)
 		(uuid "46f2667b-f467-461f-ae92-d3ace1d11764")
-	)
-	(wire
-		(pts
-			(xy 142.24 50.8) (xy 165.1 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "485dae3d-dd95-490f-b8a8-1d8046e395ec")
 	)
 	(wire
 		(pts
@@ -3989,7 +4035,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 50.8) (xy 139.7 50.8)
+			(xy 139.7 50.8) (xy 152.4 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4016,6 +4062,16 @@
 			(type default)
 		)
 		(uuid "b09f3401-db4f-4b53-80fb-29d496f19f82")
+	)
+	(wire
+		(pts
+			(xy 158.75 50.8) (xy 165.1 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c10794-a0ad-42c2-b4cc-c7012bd4b798")
 	)
 	(wire
 		(pts
@@ -4259,7 +4315,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 50.8) (xy 142.24 86.36)
+			(xy 158.75 50.8) (xy 158.75 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7367,6 +7423,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Symbols:CAP CER 0.1UF 50V X7R 0603")
+		(at 152.4 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7e60c21-cc0d-413f-95b7-5693c3cec6a7")
+		(property "Reference" "C43"
+			(at 144.145 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 144.145 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 151.13 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
+			(at 152.4 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 152.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "KYOCERA AVX"
+			(at 152.4 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KGM15BR71H104KM"
+			(at 152.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 152.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a270878-5047-43b7-9758-c835e0ad64df")
+		)
+		(pin "2"
+			(uuid "a7666d46-0d6d-4b4a-b9d2-3e26bff3a0a0")
+		)
+		(instances
+			(project "LiDAR-CAN"
+				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/91fe436f-7e8c-47e0-899c-e39330e04729"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 266.7 148.59 0)
 		(unit 1)
@@ -8151,6 +8303,71 @@
 			(project ""
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/91fe436f-7e8c-47e0-899c-e39330e04729"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8d7323d-e713-4300-8b45-a39c24b95579")
+		(property "Reference" "#PWR079"
+			(at 152.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25b01dfa-eae1-4ec2-b4bb-d23fddb630c2")
+		)
+		(instances
+			(project "LiDAR-CAN"
+				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/91fe436f-7e8c-47e0-899c-e39330e04729"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
