@@ -694,6 +694,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -3046,6 +3229,26 @@
 		)
 		(uuid "16488c82-1d55-4544-a78d-879dabb55a81")
 	)
+	(text_box "User LED"
+		(exclude_from_sim no)
+		(at 190.5 50.8 0)
+		(size 25.4 38.1)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "1ce761ee-cf26-4324-8924-a261eaeebd09")
+	)
 	(text_box "Boot from main flash memory"
 		(exclude_from_sim no)
 		(at 87.63 60.96 0)
@@ -3089,7 +3292,7 @@
 	)
 	(text_box "SWD Programmer Circuit"
 		(exclude_from_sim no)
-		(at 215.9 50.8 0)
+		(at 228.6 50.8 0)
 		(size 50.8 50.8)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3213,7 +3416,7 @@
 	)
 	(text_box "SWD interface for standard STLINK connector"
 		(exclude_from_sim no)
-		(at 222.25 59.69 0)
+		(at 234.95 59.69 0)
 		(size 38.1 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3413,10 +3616,6 @@
 		(uuid "c3a319aa-b9dd-4f6c-8987-3382a8363d14")
 	)
 	(no_connect
-		(at 172.72 55.88)
-		(uuid "c3de8abe-5fb8-432a-a98a-9d978733d6ff")
-	)
-	(no_connect
 		(at 172.72 101.6)
 		(uuid "c509ee81-31ea-46b7-b646-c6b2419a351d")
 	)
@@ -3612,7 +3811,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 78.74) (xy 241.3 78.74)
+			(xy 251.46 78.74) (xy 254 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3662,7 +3861,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 55.88) (xy 172.72 55.88)
+			(xy 170.18 55.88) (xy 203.2 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3742,7 +3941,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 83.82) (xy 241.3 83.82)
+			(xy 251.46 83.82) (xy 254 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4012,7 +4211,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 83.82) (xy 238.76 86.36)
+			(xy 251.46 83.82) (xy 251.46 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4092,7 +4291,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 73.66) (xy 241.3 73.66)
+			(xy 251.46 73.66) (xy 254 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4272,6 +4471,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 80.01) (xy 203.2 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f76cd53-90d1-4f9c-b9b2-040d5b65a565")
+	)
+	(wire
+		(pts
 			(xy 48.26 157.48) (xy 50.8 157.48)
 		)
 		(stroke
@@ -4342,7 +4551,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 76.2) (xy 241.3 76.2)
+			(xy 251.46 76.2) (xy 254 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4482,7 +4691,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 81.28) (xy 241.3 81.28)
+			(xy 251.46 81.28) (xy 254 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4662,6 +4871,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 69.85) (xy 203.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6704ef1-d41b-4d24-a6e2-df3d5e4dd795")
+	)
+	(wire
+		(pts
 			(xy 38.1 158.75) (xy 38.1 157.48)
 		)
 		(stroke
@@ -4689,6 +4908,16 @@
 			(type default)
 		)
 		(uuid "fa868719-a140-41ba-94c0-dfa1f0ae293e")
+	)
+	(wire
+		(pts
+			(xy 203.2 59.69) (xy 203.2 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcee897d-9c4d-4f4f-96ec-bcde5d6e010d")
 	)
 	(wire
 		(pts
@@ -4741,7 +4970,7 @@
 		(uuid "403120f5-1adf-4253-8fe0-57f9be63fca0")
 	)
 	(label "MCU_NRST"
-		(at 238.76 73.66 180)
+		(at 251.46 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4801,7 +5030,7 @@
 		(uuid "910addd4-af25-4c62-9e2a-8c19d6d23399")
 	)
 	(label "SWDIO"
-		(at 238.76 76.2 180)
+		(at 251.46 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4821,7 +5050,7 @@
 		(uuid "dc70962d-58bb-4a58-9a81-c83dcfc54893")
 	)
 	(label "SWCLK"
-		(at 238.76 78.74 180)
+		(at 251.46 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4849,6 +5078,16 @@
 			(justify left bottom)
 		)
 		(uuid "e68411c7-0cf3-4035-9ccb-8725fbc31c6b")
+	)
+	(label "ULED"
+		(at 172.72 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eea78dc9-31ea-42fe-88ed-cb17252cb13e")
 	)
 	(hierarchical_label "VDD"
 		(shape input)
@@ -4896,7 +5135,7 @@
 	)
 	(hierarchical_label "VDD"
 		(shape input)
-		(at 238.76 81.28 180)
+		(at 251.46 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5653,71 +5892,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 238.76 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d8a7d3f-27bb-4b0b-bf44-991f5260a4c8")
-		(property "Reference" "#PWR051"
-			(at 238.76 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 238.76 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 238.76 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf7155e9-2826-41c7-b7db-8df09394b0ac")
-		)
-		(instances
-			(project "LiDAR-CAN"
-				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 114.3 60.96 270)
 		(unit 1)
@@ -5807,6 +5981,182 @@
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 203.2 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "472d6872-b96c-4548-8205-8126647717fe")
+		(property "Reference" "D2"
+			(at 207.01 73.9774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 207.01 76.5174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 203.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/858/LTST-C190GKT.pdf"
+			(at 203.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED GREEN CLEAR CHIP SMD 0603"
+			(at 203.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On Inc."
+			(at 203.2 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C190GKT"
+			(at 203.2 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03dc864f-dfbf-4f01-8f21-0bddb468239b")
+		)
+		(pin "2"
+			(uuid "bd099082-27df-40f1-88f2-5761d006758a")
+		)
+		(instances
+			(project ""
+				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 203.2 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f2d4fd4-0a60-4167-8eba-dfd142bee983")
+		(property "Reference" "R19"
+			(at 205.74 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "300R"
+			(at 205.74 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 204.216 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 203.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 300 OHM 5% 1/10W 0603"
+			(at 203.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 203.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603JR-07300RL"
+			(at 203.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79e9baf4-8e2e-484a-9682-d8fafa1aa312")
+		)
+		(pin "2"
+			(uuid "9b6e8163-346b-40e2-8ef3-517f6ef9549e")
+		)
+		(instances
+			(project "LiDAR-CAN"
+				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -6251,7 +6601,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 246.38 78.74 0)
+		(at 259.08 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6260,7 +6610,7 @@
 		(fields_autoplaced yes)
 		(uuid "75cb7457-fc65-4512-bafd-efac64551100")
 		(property "Reference" "J2"
-			(at 248.92 77.4699 0)
+			(at 261.62 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +6619,7 @@
 			)
 		)
 		(property "Value" "61300511121"
-			(at 248.92 80.0099 0)
+			(at 261.62 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +6628,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 246.38 78.74 0)
+			(at 259.08 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6287,7 +6637,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300511121.pdf"
-			(at 246.38 78.74 0)
+			(at 259.08 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6296,7 +6646,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER VERT 5POS 2.54MM"
-			(at 246.38 78.74 0)
+			(at 259.08 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,7 +6655,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 246.38 78.74 0)
+			(at 259.08 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +6664,7 @@
 			)
 		)
 		(property "MPN" "61300511121"
-			(at 246.38 78.74 0)
+			(at 259.08 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7109,6 +7459,138 @@
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2351ac6-4890-460c-89c1-79b3da00dc55")
+		(property "Reference" "#PWR051"
+			(at 251.46 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b05b691-f645-49fa-a813-0fd2d3597bf0")
+		)
+		(instances
+			(project "LiDAR-CAN"
+				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b26956a8-590e-48cc-8690-49278122874e")
+		(property "Reference" "#PWR053"
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c22b4f3b-06d2-4880-949f-8fef7b90764b")
+		)
+		(instances
+			(project "LiDAR-CAN"
+				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/049d275f-286b-40f8-b875-516fe91bd78e"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)

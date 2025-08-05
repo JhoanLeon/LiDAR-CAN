@@ -1405,6 +1405,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2875,10 +2982,34 @@
 		(uuid "095708c0-6666-4199-b325-870422a2448d")
 	)
 	(junction
+		(at 209.55 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "101d2d95-7f53-496a-bb70-fe37755684f7")
+	)
+	(junction
+		(at 209.55 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11b87c44-ad96-4f1d-a615-22bea654cf5d")
+	)
+	(junction
+		(at 209.55 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14ed9a53-f656-4d49-9853-fa275f114cce")
+	)
+	(junction
 		(at 311.15 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24ac98fc-685e-451a-93d9-2c7331b33547")
+	)
+	(junction
+		(at 209.55 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "354278f2-2902-4224-9d2c-a6dd6277f042")
 	)
 	(junction
 		(at 313.69 101.6)
@@ -2887,10 +3018,28 @@
 		(uuid "4410635b-511b-405b-b4c5-6b1ea97a4409")
 	)
 	(junction
+		(at 209.5157 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fc90226-ffdb-47d6-a898-9b5355feb54e")
+	)
+	(junction
+		(at 209.55 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "697891c2-51ff-4a32-aa69-22d814eef0a8")
+	)
+	(junction
 		(at 317.5 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b41e4d0-38dc-4bab-9f46-89ed117a5279")
+	)
+	(junction
+		(at 209.4572 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7fe0e8e-8a60-4b9d-9067-d048fc507a83")
 	)
 	(junction
 		(at 330.2 190.5)
@@ -2916,6 +3065,32 @@
 		(color 0 0 0 0)
 		(uuid "e3fa005e-9696-4182-8709-ce7cbb203c0f")
 	)
+	(junction
+		(at 209.55 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc7bd8a1-84b4-4897-a31a-9b14f1e8ff67")
+	)
+	(wire
+		(pts
+			(xy 227.33 152.4) (xy 203.2 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03bda409-316c-4b01-ab0c-cf33964c0f46")
+	)
+	(wire
+		(pts
+			(xy 203.2 97.79) (xy 209.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d0d669-61aa-4b37-8bec-cfd0721ab19d")
+	)
 	(wire
 		(pts
 			(xy 321.31 88.9) (xy 321.31 92.71)
@@ -2935,6 +3110,36 @@
 			(type default)
 		)
 		(uuid "07d63268-b31d-4d50-a417-4e4a7551ef02")
+	)
+	(wire
+		(pts
+			(xy 203.2 149.86) (xy 229.87 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a66ac70-44be-4c66-9484-9906a3fbf6e6")
+	)
+	(wire
+		(pts
+			(xy 203.2 102.87) (xy 209.5157 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a8ad0ac-49ce-4817-a952-896de13accea")
+	)
+	(wire
+		(pts
+			(xy 209.55 97.79) (xy 232.41 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb29bab-1543-49cf-8090-fee2560a3253")
 	)
 	(wire
 		(pts
@@ -2958,6 +3163,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 137.16) (xy 209.55 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d0e44e8-69f5-4e51-bfe0-83bfc81d5271")
+	)
+	(wire
+		(pts
 			(xy 304.8 83.82) (xy 304.8 92.71)
 		)
 		(stroke
@@ -2965,6 +3180,16 @@
 			(type default)
 		)
 		(uuid "0fb0d775-9a9e-4a10-8d28-5e8c4eeff960")
+	)
+	(wire
+		(pts
+			(xy 224.79 154.94) (xy 224.79 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0feab375-8c4d-4b85-ac71-6e56db92e642")
 	)
 	(wire
 		(pts
@@ -3008,6 +3233,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 97.79) (xy 232.41 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "144ccb3b-3658-4843-a55a-d9ace415b4b9")
+	)
+	(wire
+		(pts
 			(xy 381 91.44) (xy 377.19 91.44)
 		)
 		(stroke
@@ -3038,6 +3273,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 68.58) (xy 266.7 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224b4ad6-8d0c-4984-b94f-ca9fe5c57a25")
+	)
+	(wire
+		(pts
 			(xy 330.2 100.33) (xy 330.2 101.6)
 		)
 		(stroke
@@ -3048,6 +3293,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 78.74) (xy 245.11 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24655e47-4f07-4d4e-9951-9baf3c47e99b")
+	)
+	(wire
+		(pts
 			(xy 292.1 76.2) (xy 336.55 76.2)
 		)
 		(stroke
@@ -3055,6 +3310,76 @@
 			(type default)
 		)
 		(uuid "248a050f-c726-4474-9fdf-9a54dbc4595f")
+	)
+	(wire
+		(pts
+			(xy 209.4572 139.7) (xy 203.2 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26740a38-f264-4ec5-9ee6-07911fc7be2c")
+	)
+	(wire
+		(pts
+			(xy 209.5157 102.87) (xy 237.49 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "269fd5b7-0d96-4757-963f-030b1bca1555")
+	)
+	(wire
+		(pts
+			(xy 240.03 195.58) (xy 240.03 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e53edd-223b-48bc-8f38-1294e5957bd6")
+	)
+	(wire
+		(pts
+			(xy 237.49 142.24) (xy 237.49 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aacc2a2-95ac-4adc-aa19-41230371fa13")
+	)
+	(wire
+		(pts
+			(xy 245.11 110.49) (xy 203.2 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf2e02b-c33f-4a47-bf43-825726b62c04")
+	)
+	(wire
+		(pts
+			(xy 266.7 208.28) (xy 227.33 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d5cd836-fad6-422b-aa0b-32e1d469cdd0")
+	)
+	(wire
+		(pts
+			(xy 222.25 213.36) (xy 222.25 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f1bee30-2a94-466c-a174-b8ec63abb0c2")
 	)
 	(wire
 		(pts
@@ -3085,6 +3410,26 @@
 			(type default)
 		)
 		(uuid "326a5a56-813d-46eb-8515-6f58524dfbe7")
+	)
+	(wire
+		(pts
+			(xy 232.41 147.32) (xy 203.2 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347ce8c7-5c3b-4883-81a5-5524c389042d")
+	)
+	(wire
+		(pts
+			(xy 242.57 137.16) (xy 242.57 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3608af71-099a-4a3a-8178-56f971a7039a")
 	)
 	(wire
 		(pts
@@ -3128,6 +3473,26 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 137.16) (xy 242.57 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e2cdf38-ecd2-46dc-92f9-4a5e976fbf13")
+	)
+	(wire
+		(pts
+			(xy 240.03 139.7) (xy 209.4572 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f29ad3a-c5ed-48e6-bbea-89106ea41e92")
+	)
+	(wire
+		(pts
 			(xy 261.62 50.8) (xy 261.62 55.88)
 		)
 		(stroke
@@ -3145,6 +3510,36 @@
 			(type default)
 		)
 		(uuid "4a7b6c87-1e8e-41f6-9ea5-77c5c852dcc0")
+	)
+	(wire
+		(pts
+			(xy 209.55 134.62) (xy 203.2 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c186d01-4bce-4081-9cab-802321bdfa85")
+	)
+	(wire
+		(pts
+			(xy 245.11 78.74) (xy 245.11 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d5ca572-ac25-4ebd-92c4-fb883fb48bd4")
+	)
+	(wire
+		(pts
+			(xy 222.25 157.48) (xy 203.2 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f73959c-9cfa-473a-a4f4-735116ded387")
 	)
 	(wire
 		(pts
@@ -3178,6 +3573,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 63.5) (xy 266.7 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d5e1e1d-44fa-4159-aff0-bfaba73c191a")
+	)
+	(wire
+		(pts
 			(xy 336.55 88.9) (xy 321.31 88.9)
 		)
 		(stroke
@@ -3185,6 +3590,16 @@
 			(type default)
 		)
 		(uuid "5f613584-97d2-4c6c-acb2-f6fcb88eb0ff")
+	)
+	(wire
+		(pts
+			(xy 245.11 134.62) (xy 209.55 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f6d4725-67b0-4fb4-8f4b-80b9163e5064")
 	)
 	(wire
 		(pts
@@ -3198,6 +3613,26 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 203.2) (xy 232.41 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c037120-15b5-4a20-acf5-af2a5b36ce17")
+	)
+	(wire
+		(pts
+			(xy 227.33 208.28) (xy 227.33 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c981b46-fe50-43c4-81f7-62de5438fb15")
+	)
+	(wire
+		(pts
 			(xy 317.5 58.42) (xy 317.5 48.26)
 		)
 		(stroke
@@ -3208,6 +3643,56 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 195.58) (xy 240.03 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d30e2b-7bd2-4c5d-94c0-d83e41ae9475")
+	)
+	(wire
+		(pts
+			(xy 203.2 142.24) (xy 209.55 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a5dc22b-aba6-4bea-8136-19c2d673c921")
+	)
+	(wire
+		(pts
+			(xy 242.57 76.2) (xy 266.7 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca401fc-0b0f-4af5-bda2-4d319341e701")
+	)
+	(wire
+		(pts
+			(xy 203.2 154.94) (xy 224.79 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc2c78a-fec8-4f98-99bc-fa51807c0ac7")
+	)
+	(wire
+		(pts
+			(xy 203.2 107.95) (xy 242.57 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81bd3d2d-f573-4f14-8c50-3e72dda514a2")
+	)
+	(wire
+		(pts
 			(xy 321.31 100.33) (xy 321.31 101.6)
 		)
 		(stroke
@@ -3215,6 +3700,46 @@
 			(type default)
 		)
 		(uuid "83e9e8bf-bb2e-4896-917a-d1ebc54bc827")
+	)
+	(wire
+		(pts
+			(xy 209.55 142.24) (xy 237.49 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8432c1f0-f427-4dce-b5b9-a9d8cee8c490")
+	)
+	(wire
+		(pts
+			(xy 229.87 149.86) (xy 229.87 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84cbd219-8d2b-4117-90b3-ec84fef594c1")
+	)
+	(wire
+		(pts
+			(xy 242.57 107.95) (xy 242.57 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85d8caf8-0171-4f14-aeb3-6f415206def2")
+	)
+	(wire
+		(pts
+			(xy 237.49 198.12) (xy 266.7 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "863136db-9258-431e-9ec6-f8ce35530a5c")
 	)
 	(wire
 		(pts
@@ -3298,6 +3823,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 203.2) (xy 232.41 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d62bcbc-59eb-4921-b7f8-bf0ebe8c70cf")
+	)
+	(wire
+		(pts
 			(xy 311.15 209.55) (xy 304.8 209.55)
 		)
 		(stroke
@@ -3305,6 +3840,16 @@
 			(type default)
 		)
 		(uuid "a13a72f1-340d-4260-9bb1-becc8efc417b")
+	)
+	(wire
+		(pts
+			(xy 209.55 100.33) (xy 234.95 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6473f50-36c5-405e-8a25-28d52f8d0ba7")
 	)
 	(wire
 		(pts
@@ -3348,6 +3893,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 93.98) (xy 160.02 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc2da6e-d267-496e-9748-503ab31b1738")
+	)
+	(wire
+		(pts
 			(xy 317.5 40.64) (xy 317.5 38.1)
 		)
 		(stroke
@@ -3355,6 +3910,66 @@
 			(type default)
 		)
 		(uuid "bc2a9381-3e9d-48bd-8fd4-51384a726de1")
+	)
+	(wire
+		(pts
+			(xy 242.57 193.04) (xy 266.7 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c153a6b4-bdb9-45b3-9549-5f3fd8632ecf")
+	)
+	(wire
+		(pts
+			(xy 237.49 71.12) (xy 266.7 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2dc7ea0-02e7-4cc3-b2e0-4bdb1cb13a0b")
+	)
+	(wire
+		(pts
+			(xy 165.1 93.98) (xy 160.02 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a7f4ee-b1ea-4a41-a649-a68b68a3b718")
+	)
+	(wire
+		(pts
+			(xy 224.79 210.82) (xy 266.7 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e59b5d-e4cb-4bf7-8c81-38a297d37551")
+	)
+	(wire
+		(pts
+			(xy 232.41 66.04) (xy 266.7 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c90a3773-62b2-4f5a-aa75-87236342277c")
+	)
+	(wire
+		(pts
+			(xy 237.49 102.87) (xy 237.49 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c98e1e90-8e67-43f9-8e48-a6f93781a9c2")
 	)
 	(wire
 		(pts
@@ -3388,6 +4003,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 95.25) (xy 229.87 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7eade50-d21a-41fe-b4c5-ec9b6d0659aa")
+	)
+	(wire
+		(pts
 			(xy 292.1 68.58) (xy 336.55 68.58)
 		)
 		(stroke
@@ -3405,6 +4030,16 @@
 			(type default)
 		)
 		(uuid "dc23b064-b622-431b-9819-914d53cf3ad6")
+	)
+	(wire
+		(pts
+			(xy 229.87 95.25) (xy 229.87 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def82b4a-9a7d-4179-8312-26156a2fcbe9")
 	)
 	(wire
 		(pts
@@ -3438,6 +4073,26 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 190.5) (xy 245.11 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7e0742a-167f-42ee-92cd-c1e9c2bfe7e5")
+	)
+	(wire
+		(pts
+			(xy 203.2 100.33) (xy 209.55 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e842db07-b543-47cb-a83f-cd6ccf499cf2")
+	)
+	(wire
+		(pts
 			(xy 336.55 91.44) (xy 330.2 91.44)
 		)
 		(stroke
@@ -3445,6 +4100,26 @@
 			(type default)
 		)
 		(uuid "e8a8995a-968f-43cc-97a7-e38035d2e345")
+	)
+	(wire
+		(pts
+			(xy 266.7 213.36) (xy 222.25 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e990ba8d-b377-4261-92e8-70e5bf60ac6f")
+	)
+	(wire
+		(pts
+			(xy 203.2 95.25) (xy 209.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9b692a-0d2a-4c68-8073-40cbacddd034")
 	)
 	(wire
 		(pts
@@ -3508,6 +4183,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 190.5) (xy 245.11 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59b4fb6-85bf-4b89-8e6a-684ac77f0bc4")
+	)
+	(wire
+		(pts
 			(xy 261.62 182.88) (xy 266.7 182.88)
 		)
 		(stroke
@@ -3515,6 +4200,16 @@
 			(type default)
 		)
 		(uuid "f6670329-345c-4ecd-a4b7-b0542a5b212d")
+	)
+	(wire
+		(pts
+			(xy 234.95 100.33) (xy 234.95 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f832b531-233a-44d9-a523-0c8e93e3b770")
 	)
 	(wire
 		(pts
@@ -3558,6 +4253,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 205.74) (xy 266.7 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd74399-376e-498b-96ed-408b59b95d81")
+	)
+	(wire
+		(pts
 			(xy 330.2 40.64) (xy 330.2 38.1)
 		)
 		(stroke
@@ -3565,6 +4270,74 @@
 			(type default)
 		)
 		(uuid "fd1f882d-6468-441d-9e3d-eb81bb25ee07")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 209.55 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "099509e3-03e8-4729-90c0-5fe28db10522")
+		(property "Reference" "TP20"
+			(at 210.82 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 210.82 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 214.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 209.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f015b1e0-4d0c-495f-9ec1-abfb1ff679e3")
+		)
+		(instances
+			(project "LiDAR-CAN"
+				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -3649,6 +4422,74 @@
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 209.4572 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13709ec4-eaae-431d-bf4c-fe563919787a")
+		(property "Reference" "TP25"
+			(at 210.7272 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 210.7272 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 214.5372 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.5372 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 209.4572 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebccf3a4-85cf-4a8f-a55f-0e38c63da7bd")
+		)
+		(instances
+			(project "LiDAR-CAN"
+				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9"
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -4088,6 +4929,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 209.55 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39a09d74-c98b-441f-9794-7fb3fbac8623")
+		(property "Reference" "TP19"
+			(at 210.82 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 210.82 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 209.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64752570-06d5-4b8f-9426-e8616d149535")
+		)
+		(instances
+			(project ""
+				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 297.18 177.8 0)
 		(unit 1)
@@ -4220,6 +5129,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 209.5157 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59e2ab9b-5000-4cd8-9d95-5009dc744e3a")
+		(property "Reference" "TP22"
+			(at 210.7857 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 210.7857 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 214.5957 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.5957 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 209.5157 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ecebbb5-778a-4e4f-ad5d-267fa9aae0d5")
+		)
+		(instances
+			(project "LiDAR-CAN"
+				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 321.31 96.52 0)
 		(unit 1)
@@ -4302,6 +5279,72 @@
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 160.02 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73cda556-b23d-427b-9f85-72901f60581a")
+		(property "Reference" "#PWR052"
+			(at 160.02 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 160.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 160.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0ff0d53-ba0e-472b-bd37-a0643474fb2a")
+		)
+		(instances
+			(project "LiDAR-CAN"
+				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -5254,6 +6297,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 209.55 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce5dfd0c-18b7-4aa5-b622-763e030edccc")
+		(property "Reference" "TP26"
+			(at 210.82 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 210.82 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 214.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 209.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe954f7a-0d0b-4067-a55e-9f43e78151b2")
+		)
+		(instances
+			(project "LiDAR-CAN"
+				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9"
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 361.95 109.22 0)
 		(unit 1)
@@ -5380,6 +6491,142 @@
 			(project "LiDAR-CAN"
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 209.55 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db40b502-3e67-42b8-a070-615e08cb7f7a")
+		(property "Reference" "TP24"
+			(at 210.82 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 210.82 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 214.63 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 209.55 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66a362e2-6874-490e-8965-1e176c5ab983")
+		)
+		(instances
+			(project "LiDAR-CAN"
+				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 209.55 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddd6676c-5a78-486e-b4a2-dfb407de5eb0")
+		(property "Reference" "TP23"
+			(at 210.82 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 210.82 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 214.63 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 209.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "604a3331-0390-47ec-99ed-cea591010e6f")
+		)
+		(instances
+			(project "LiDAR-CAN"
+				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9"
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -5783,9 +7030,77 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 209.55 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc7915d0-030d-46d3-a118-9695f9458c29")
+		(property "Reference" "TP21"
+			(at 210.82 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 210.82 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 214.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 209.55 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6824dd47-8d34-48b3-826a-2acc432d157c")
+		)
+		(instances
+			(project "LiDAR-CAN"
+				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 76.2 111.76)
-		(size 38.1 38.1)
+		(at 165.1 88.9)
+		(size 38.1 76.2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5800,7 +7115,7 @@
 		)
 		(uuid "049d275f-286b-40f8-b875-516fe91bd78e")
 		(property "Sheetname" "Microcontroller"
-			(at 76.2 111.0484 0)
+			(at 165.1 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5809,13 +7124,173 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 76.2 150.4446 0)
+			(at 165.1 165.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "CAN_GPIO1" input
+			(at 203.2 152.4 0)
+			(uuid "a70d4eb4-a542-49ce-8b19-ee41dd58ce70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_GPIO2" input
+			(at 203.2 154.94 0)
+			(uuid "ba277f9e-1872-4810-9b80-0c83df6f0d87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_INT" input
+			(at 203.2 147.32 0)
+			(uuid "3ddb4e7d-9198-4050-8892-279dd0fbf75f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_RST" output
+			(at 203.2 149.86 0)
+			(uuid "f92e2e93-ef3d-4b09-97c6-d196d984c8c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_WKRQ" input
+			(at 203.2 157.48 0)
+			(uuid "8101db2d-607f-44ec-bc4b-8441d264d9f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETHERNET_INT" input
+			(at 203.2 107.95 0)
+			(uuid "495315c8-16dc-4eb9-98ff-0f12193246b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETHERNET_RST" output
+			(at 203.2 110.49 0)
+			(uuid "5fb7c603-f0d8-4df7-aee8-344069ce6dcc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MISO" input
+			(at 203.2 100.33 0)
+			(uuid "bbd1f240-ee33-4df2-ab45-ea96dfd7fb5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MOSI" output
+			(at 203.2 97.79 0)
+			(uuid "38f95f1d-4847-4aa4-8711-77f00b20cca4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_NSS" output
+			(at 203.2 102.87 0)
+			(uuid "83a9d2fb-f565-48f6-899a-3f16e8740f2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_SCK" output
+			(at 203.2 95.25 0)
+			(uuid "605277c6-cc43-48c3-a2ce-290be5519247")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI2_MISO" input
+			(at 203.2 137.16 0)
+			(uuid "274b8fc4-6ce5-4938-9100-98be75609028")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI2_MOSI" output
+			(at 203.2 139.7 0)
+			(uuid "1166df5f-87b5-48e5-ad1f-d46f58566111")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI2_NSS" output
+			(at 203.2 142.24 0)
+			(uuid "2d62e50a-87f6-4ef8-8368-bc9bec987843")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI2_SCK" output
+			(at 203.2 134.62 0)
+			(uuid "1443e44f-4bb7-4025-995c-257006b17ad5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" input
+			(at 165.1 93.98 180)
+			(uuid "d31e4721-3d6c-41c2-8bf6-f12f82f93236")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
