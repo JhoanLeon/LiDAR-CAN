@@ -3520,8 +3520,16 @@
 		(uuid "f1d83f38-7f08-4d9f-af58-0bfd9243554b")
 	)
 	(no_connect
+		(at 132.08 83.82)
+		(uuid "0468ca2f-7936-42e5-8bb5-dbbbd35b3aaf")
+	)
+	(no_connect
 		(at 132.08 104.14)
 		(uuid "3671a421-f547-4160-8aa2-1efb194d3bc0")
+	)
+	(no_connect
+		(at 132.08 86.36)
+		(uuid "385d9e12-989f-45c3-a194-42c6e0987299")
 	)
 	(no_connect
 		(at 172.72 119.38)
@@ -3570,10 +3578,6 @@
 	(no_connect
 		(at 132.08 91.44)
 		(uuid "896062b2-f4d5-4c8c-bca3-66c16d6e6747")
-	)
-	(no_connect
-		(at 172.72 81.28)
-		(uuid "8a90a1b6-cf89-44f3-89af-d9bb24891c23")
 	)
 	(no_connect
 		(at 172.72 114.3)
@@ -3630,10 +3634,6 @@
 	(no_connect
 		(at 132.08 109.22)
 		(uuid "fcddfb7c-55b3-4df2-9519-3cc2e13e7d5d")
-	)
-	(no_connect
-		(at 172.72 78.74)
-		(uuid "fde77437-0fb1-40a0-a596-54b5beef0af1")
 	)
 	(no_connect
 		(at 172.72 121.92)
@@ -5111,17 +5111,6 @@
 		)
 		(uuid "1d9a19f6-a2c1-42b0-9ed2-d4f74695dfac")
 	)
-	(hierarchical_label "ETHERNET_RST"
-		(shape output)
-		(at 132.08 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "245081eb-6b1d-45a9-85ce-6399cca87ae3")
-	)
 	(hierarchical_label "VDD"
 		(shape input)
 		(at 251.46 81.28 180)
@@ -5165,17 +5154,6 @@
 			(justify left)
 		)
 		(uuid "6f4af5ce-dbfa-4c5f-b766-8455ed13a813")
-	)
-	(hierarchical_label "ETHERNET_INT"
-		(shape input)
-		(at 132.08 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "75501fe7-5fba-4bc9-b4c9-160488b40dd4")
 	)
 	(hierarchical_label "CAN_WKRQ"
 		(shape input)
@@ -5276,6 +5254,17 @@
 		)
 		(uuid "ad64e5ab-ae9f-4ab3-bb82-4cb74230355a")
 	)
+	(hierarchical_label "ETHERNET_INT"
+		(shape input)
+		(at 172.72 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7421750-672c-4fcf-b00d-a5655a35d21e")
+	)
 	(hierarchical_label "VDD"
 		(shape input)
 		(at 38.1 38.1 180)
@@ -5286,6 +5275,17 @@
 			(justify right)
 		)
 		(uuid "b7c21340-9200-461b-8e96-6b7326ba1136")
+	)
+	(hierarchical_label "ETHERNET_RST"
+		(shape output)
+		(at 172.72 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d953676e-1718-4c8f-95bd-625fbd9a7dac")
 	)
 	(hierarchical_label "SPI2_MOSI"
 		(shape output)
