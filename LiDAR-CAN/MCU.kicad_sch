@@ -3372,10 +3372,10 @@
 		)
 		(uuid "a4a9448a-aa63-4173-8ab0-a960ff648886")
 	)
-	(text_box "VDD/VBAT range: 1.7V - 3.6V\nMaximum IDD: 25mA"
+	(text_box "VDD/VBAT range: 1.7V - 3.6V\nMaximum IDD: 25mA\nArm Cortex-M4 84MHz core speed"
 		(exclude_from_sim no)
-		(at 25.4 25.4 0)
-		(size 31.75 6.35)
+		(at 25.4 24.13 0)
+		(size 38.1 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -5420,7 +5420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 101.6 44.45 0)
 			(effects
 				(font
@@ -6361,7 +6361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 76.2 44.45 0)
 			(effects
 				(font
@@ -6548,7 +6548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 88.9 44.45 0)
 			(effects
 				(font
@@ -6780,7 +6780,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32F401RBTx"
+		(property "Value" "STM32F401RBT6"
 			(at 157.0833 144.78 0)
 			(effects
 				(font
@@ -6808,7 +6808,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 64KB RAM, 84 MHz, 1.7-3.6V, 50 GPIO, LQFP64"
+		(property "Description" "IC MCU 32BIT 128KB FLASH 64LQFP"
+			(at 152.4 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 152.4 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "STM32F401RBT6"
 			(at 152.4 96.52 0)
 			(effects
 				(font
@@ -8561,7 +8579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 63.5 44.45 0)
 			(effects
 				(font

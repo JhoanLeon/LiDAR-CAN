@@ -5570,7 +5570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 127 57.15 0)
 			(effects
 				(font
@@ -5797,7 +5797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 76.2 57.15 0)
 			(effects
 				(font
@@ -5893,7 +5893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 88.9 57.15 0)
 			(effects
 				(font
@@ -7809,7 +7809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 139.7 57.15 0)
 			(effects
 				(font
