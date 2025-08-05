@@ -107,6 +107,7 @@
         "solder_mask_bridge": "warning",
         "starved_thermal": "warning",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -486,38 +487,47 @@
         "wire_width": 6
       },
       {
+        "bus_width": 12,
         "clearance": 0.127,
+        "line_style": 0,
         "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(132, 0, 0)",
         "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.6981,
         "via_diameter": 0.9,
-        "via_drill": 0.6
+        "via_drill": 0.6,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
         "clearance": 0.2032,
         "diff_pair_gap": 0.2032,
         "diff_pair_width": 0.2146,
+        "line_style": 0,
         "name": "Z100_DIFF_PAIR",
         "pcb_color": "rgb(0, 255, 255)",
         "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 255, 255)",
         "track_width": 0.2146,
         "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
-        "clearance": 0.2032,
-        "diff_pair_gap": 0.2032,
-        "diff_pair_width": 0.1262,
+        "bus_width": 12,
+        "clearance": 0.4064,
+        "diff_pair_gap": 0.4064,
+        "diff_pair_width": 0.1857,
+        "line_style": 0,
         "name": "Z120_DIFF_PAIR",
         "pcb_color": "rgb(0, 255, 0)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1262,
+        "schematic_color": "rgb(0, 255, 0)",
+        "track_width": 0.1857,
         "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -525,7 +535,32 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Z100_DIFF_PAIR",
+        "pattern": "/LiDAR Interface/TXP"
+      },
+      {
+        "netclass": "Z100_DIFF_PAIR",
+        "pattern": "/LiDAR Interface/TXN"
+      },
+      {
+        "netclass": "Z100_DIFF_PAIR",
+        "pattern": "/LiDAR Interface/RXP"
+      },
+      {
+        "netclass": "Z100_DIFF_PAIR",
+        "pattern": "/LiDAR Interface/RXN"
+      },
+      {
+        "netclass": "Z120_DIFF_PAIR",
+        "pattern": "/CAN Interface/CAN+"
+      },
+      {
+        "netclass": "Z120_DIFF_PAIR",
+        "pattern": "/CAN Interface/CAN-"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -647,8 +682,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "${EXCLUDE_FROM_BOM}"
     },
     "connection_grid_size": 50.0,
     "drawing": {

@@ -5631,7 +5631,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21508da5-1e05-4861-9e73-abe863425c68")
@@ -5653,7 +5653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 233.68 127 0)
 			(effects
 				(font
@@ -5830,7 +5830,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b8780d3-b5c1-4fa6-80af-0c63601f79ad")
@@ -5852,7 +5852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 271.78 127 0)
 			(effects
 				(font
@@ -7270,7 +7270,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a98c98e9-9cdd-4025-a086-267ba05c7f5f")
@@ -7292,7 +7292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 246.38 127 0)
 			(effects
 				(font
@@ -8093,7 +8093,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c81dc2aa-9f2b-4449-9cd0-06df912063d8")
@@ -8115,7 +8115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 259.08 127 0)
 			(effects
 				(font
@@ -8636,7 +8636,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff3262da-7b4e-4bcf-b1e9-823ea587a2db")
@@ -8658,7 +8658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 220.98 127 0)
 			(effects
 				(font
@@ -8686,7 +8686,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5546b37b-2929-4d58-bbb4-df7cea178cbb")
+			(uuid "5546b37b-2929-4d58-bbb4-df7cea178cbc")
 		)
 		(instances
 			(project "LiDAR-CAN"
