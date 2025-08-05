@@ -6025,7 +6025,7 @@
 			)
 		)
 		(pin "~{INT}" output
-			(at 266.7 73.66 180)
+			(at 266.7 76.2 180)
 			(uuid "b0802deb-7c84-450d-9da3-72b12d6554e0")
 			(effects
 				(font
@@ -6035,7 +6035,7 @@
 			)
 		)
 		(pin "~{RST}" input
-			(at 266.7 76.2 180)
+			(at 266.7 78.74 180)
 			(uuid "78807cc2-a1b4-4783-adf7-2a0fda78baa4")
 			(effects
 				(font
@@ -6208,7 +6208,7 @@
 			)
 		)
 		(pin "RST" input
-			(at 266.7 203.2 180)
+			(at 266.7 205.74 180)
 			(uuid "9de8199f-52c2-4020-b057-bfd5575512eb")
 			(effects
 				(font
@@ -6218,7 +6218,7 @@
 			)
 		)
 		(pin "~{INT}" input
-			(at 266.7 200.66 180)
+			(at 266.7 203.2 180)
 			(uuid "d5398180-4525-477c-9cec-a42f6e77f052")
 			(effects
 				(font
