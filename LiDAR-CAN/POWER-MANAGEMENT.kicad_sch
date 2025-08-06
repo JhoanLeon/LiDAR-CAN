@@ -5213,7 +5213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcd6325e-9474-4416-b1d8-320be04e4f98")
-		(property "Reference" "Dw1"
+		(property "Reference" "D6"
 			(at 205.74 57.1499 90)
 			(effects
 				(font
@@ -5285,7 +5285,7 @@
 		(instances
 			(project ""
 				(path "/56db6f21-0e4a-4321-bd8a-db37f1842dd9/279681b5-dc02-4bbb-98e2-e427440df0b4"
-					(reference "Dw1")
+					(reference "D6")
 					(unit 1)
 				)
 			)
