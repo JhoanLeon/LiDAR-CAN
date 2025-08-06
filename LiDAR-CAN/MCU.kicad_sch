@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "LiDAR-CAN Interface")
-		(date "2025-08-03")
-		(rev "1")
+		(date "2025-08-05")
+		(rev "2")
 		(company "Robot.com")
 	)
 	(lib_symbols
@@ -6654,7 +6654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
+		(property "Manufacturer" "Wurth Elektronik"
 			(at 259.08 78.74 0)
 			(effects
 				(font
@@ -7147,7 +7147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 50.8 44.45 0)
 			(effects
 				(font
@@ -7934,7 +7934,7 @@
 				)
 			)
 		)
-		(property "Value" "22Ω"
+		(property "Value" "22R"
 			(at 44.45 154.94 90)
 			(effects
 				(font

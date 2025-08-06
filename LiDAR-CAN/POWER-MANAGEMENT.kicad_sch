@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "LiDAR-CAN Interface")
-		(date "2025-08-03")
-		(rev "1")
+		(date "2025-08-05")
+		(rev "2")
 		(company "Robot.com")
 	)
 	(lib_symbols
@@ -3727,7 +3727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.5-V to 36-V, 3-A synchronous buck converter with 40-µA IQ, SOT-23-6"
+		(property "Description" "IC REG BUCK ADJ 3A SOT23"
 			(at 127 116.84 0)
 			(effects
 				(font
@@ -4179,7 +4179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.5-V to 36-V, 3-A synchronous buck converter with 40-µA IQ, SOT-23-6"
+		(property "Description" "IC REG BUCK ADJ 3A SOT23"
 			(at 127 53.34 0)
 			(effects
 				(font
